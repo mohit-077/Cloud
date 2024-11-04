@@ -352,19 +352,24 @@ AWS Console -> Services -> Networking & Content Delivery -> VPC -> Your VPCs
 VPC Name: MyVPC
 IPv4 CIDR Block: 10.0.0.0/16
 Click Create
-![90](https://github.com/user-attachments/assets/10343b81-c870-420f-a2a5-63036d73c386)
+
+![1000009780](https://github.com/user-attachments/assets/24744b6d-92f7-4d18-b6b5-51ac6f3157d8)
 
 
 NOW CREATE 4 SUBNETS - 2 PVT 2 PUBLIC WITH ADDRESS 10.0.1.0/24 , 10.0.2.0/24 , 10.0.3.0/24 , 10.0.4.0/24 
-![subnet](https://github.com/user-attachments/assets/20e39867-6cf0-4b63-928d-edb4da49fc32)
+![1000009784](https://github.com/user-attachments/assets/d0cc202e-4736-4ea7-ae67-cdefdd4bd685)
+
 
 THEN CREATE INTERNET GATEWAY AND CONNECT VPC TO IT AND THEN CREATE VGW AND CONNECT(ATTACH) VPC TO IT. NOW GO TO ROUTE TABLES AND CREATE 2 ROUTE TABLE - R1-IGW , R2-VGW AND EDIT ROUTES WITH 0.0.0.0/0 AND 192.168.0.0/16 RESPECTIVELY AND TARGET IGW AND VGW RESPECTIVELY.
-![rr](https://github.com/user-attachments/assets/0cd8bf7a-17d0-48e8-a9b8-72ce479a79a1)
+![1000009785](https://github.com/user-attachments/assets/6f0ae88a-1d42-48b7-b5f4-8c9d989ba1d8)
 
 
 
-Now create 2 instances of same type with select VPC which you created and using putty download apache-2 on both and edit like test-1 and test-2 respectively for better understanding.Like
-![tt23](https://github.com/user-attachments/assets/c0a20bf6-b54d-4c9c-af59-320ec88f2f23)
+
+Now create 2 instances of same type with select VPC which you created and using putty download apache-2 on both and edit like test-1 and test-2 respectively for better understanding.
+![1000009786](https://github.com/user-attachments/assets/2eb79a44-89ec-4aa6-8bb2-f031eccd96f1)
+
+
 
 ![1t](https://github.com/user-attachments/assets/fe4e0efe-142a-4f6e-900b-66eab17f5cf5)
 ![2t](https://github.com/user-attachments/assets/6131bb31-4180-462c-941f-bc006fb79e08)
