@@ -117,7 +117,7 @@ USING CONTAINER's IN VM , USNIG  DOCKER TO ADD NGINX SEVER IN IT AND TYPING HI I
 >>  23. shift + ;<br/>
 >> 24. wq   press {ENTER}<br/>
 >>  25. docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
->>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page <br/>
+>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page    <br/>
 
 
 
