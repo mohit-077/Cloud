@@ -369,23 +369,34 @@ THEN CREATE INTERNET GATEWAY AND CONNECT VPC TO IT AND THEN CREATE VGW AND CONNE
 
 
 
-Now create 2 instances of same type with select VPC which you created and using putty download apache-2 on both and edit like test-1 and test-2 respectively for better understanding.
+Now, create 2 instances of the same type with same VPC which you created and using putty download apache-2 on both and edit it as test-1 and test-2 respectively for better understanding.
+
 ![54d33c9b-e5ec-4636-bbb6-2d9f6ec2925d-1_all_5560](https://github.com/user-attachments/assets/e6335856-f238-4b38-a8bd-390d477071a5)
 
 
 
+It will show like this :
 
-![1t](https://github.com/user-attachments/assets/fe4e0efe-142a-4f6e-900b-66eab17f5cf5)
-![2t](https://github.com/user-attachments/assets/6131bb31-4180-462c-941f-bc006fb79e08)
 
-Now to create LOAD BALANCER (WE NAMED server-computer HERE ) OF APPLICTION TYPE , WE NEED TO CREATE TARGET GROUP AND ATTACH BOTH EC2 INSTANCES WE CREATED AND EDIT HEALTH CHECK-UPS AS-
+![1000010013](https://github.com/user-attachments/assets/55c7e7de-d95f-4955-8887-6a358377bed7)
+
+![1000010012](https://github.com/user-attachments/assets/f3b05802-e8b7-4e8e-8100-733afea8df19)
+
+
+Now, To create LOAD BALANCER (We Named server-computer here ) of application type , WE NEED TO CREATE TARGET GROUP AND ATTACH BOTH EC2 INSTANCES WE CREATED AND EDIT HEALTH CHECK-UPS LIKE THIS:
+
+
 ![HELTH](https://github.com/user-attachments/assets/91af3b9a-95fe-49a7-a3c9-dc953323cf7a)
 
 
 AND NOW SELECT THIS TARGET (WE NAMED AS T-1 HERE)
-AND CREATE LOAD BALANCER , NOW COPY YOUR LOAD BALANCER'S DNS NAME AND PASTE IT IN OTHER TAB AND RELOAD TWICE TO SEE ITS WORKING AS-
-![L1](https://github.com/user-attachments/assets/7e1f0064-09f3-4d22-aff1-37d836682dab)
-![L2](https://github.com/user-attachments/assets/dde85906-1283-41df-bc05-38091c2564d8)
+
+AND CREATE LOAD BALANCER , NOW COPY YOUR LOAD BALANCER'S DNS NAME AND PASTE IT IN OTHER TAB AND RELOAD IT TO SEE ITS WORKING-
+
+![1000010014](https://github.com/user-attachments/assets/3fe2fe54-8bd3-438f-bd55-11d40757062c)
+
+![1000010015](https://github.com/user-attachments/assets/25fda73b-be93-4761-bd6a-6ffd86e7140d)
+
 
 
 ### NOW ON ANY 1 INSTANCE WRITE FOLLOWING COMMANDS IN PUTTY-
