@@ -353,21 +353,25 @@ VPC Name: MyVPC
 IPv4 CIDR Block: 10.0.0.0/16
 Click Create
 
-![1000009780](https://github.com/user-attachments/assets/24744b6d-92f7-4d18-b6b5-51ac6f3157d8)
+![54d33c9b-e5ec-4636-bbb6-2d9f6ec2925d-1_all_5559](https://github.com/user-attachments/assets/d2738b4c-20e7-4a5e-af12-82d08cbd15bc)
+
 
 
 NOW CREATE 4 SUBNETS - 2 PVT 2 PUBLIC WITH ADDRESS 10.0.1.0/24 , 10.0.2.0/24 , 10.0.3.0/24 , 10.0.4.0/24 
-![1000009784](https://github.com/user-attachments/assets/d0cc202e-4736-4ea7-ae67-cdefdd4bd685)
+![54d33c9b-e5ec-4636-bbb6-2d9f6ec2925d-1_all_5558](https://github.com/user-attachments/assets/4c104e82-0a0c-44c6-bc3a-a59988c15b8c)
+
 
 
 THEN CREATE INTERNET GATEWAY AND CONNECT VPC TO IT AND THEN CREATE VGW AND CONNECT(ATTACH) VPC TO IT. NOW GO TO ROUTE TABLES AND CREATE 2 ROUTE TABLE - R1-IGW , R2-VGW AND EDIT ROUTES WITH 0.0.0.0/0 AND 192.168.0.0/16 RESPECTIVELY AND TARGET IGW AND VGW RESPECTIVELY.
-![1000009785](https://github.com/user-attachments/assets/6f0ae88a-1d42-48b7-b5f4-8c9d989ba1d8)
+![54d33c9b-e5ec-4636-bbb6-2d9f6ec2925d-1_all_5557](https://github.com/user-attachments/assets/7a718b9f-2986-4a52-b392-e993e317a822)
+
 
 
 
 
 Now create 2 instances of same type with select VPC which you created and using putty download apache-2 on both and edit like test-1 and test-2 respectively for better understanding.
-![1000009786](https://github.com/user-attachments/assets/2eb79a44-89ec-4aa6-8bb2-f031eccd96f1)
+![54d33c9b-e5ec-4636-bbb6-2d9f6ec2925d-1_all_5560](https://github.com/user-attachments/assets/e6335856-f238-4b38-a8bd-390d477071a5)
+
 
 
 
