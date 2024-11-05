@@ -393,9 +393,11 @@ AND NOW SELECT THIS TARGET (WE NAMED AS T-1 HERE)
 
 AND CREATE LOAD BALANCER , NOW COPY YOUR LOAD BALANCER'S DNS NAME AND PASTE IT IN OTHER TAB AND RELOAD IT TO SEE ITS WORKING-
 
-![1000010014](https://github.com/user-attachments/assets/3fe2fe54-8bd3-438f-bd55-11d40757062c)
+![1000010016](https://github.com/user-attachments/assets/ba93485d-00d8-4fc2-8f9b-7d294f4792ff)
 
-![1000010015](https://github.com/user-attachments/assets/25fda73b-be93-4761-bd6a-6ffd86e7140d)
+
+![1000010017](https://github.com/user-attachments/assets/005d266a-33b9-4574-9997-742ef22a2b60)
+
 
 
 
